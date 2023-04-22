@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+ body {
+     font-family: 'Gloria Hallelujah', cursive;
+ }
+ 
+ #content {
+     margin: 0px 5px;
+     background-color: rgb(240, 240, 240);
+     font-family: 'Titillium Web', sans-serif;
+ }
+ 
+ #weather {
+     display: none;
+ }
+ 
+ #infor {
+     padding: 10px;
+     border: 1px solid black;
+ }
+ 
+ #old img {
+     width: 70%;
+ }
+ 
+ h1 {
+     color: rgb(71, 71, 72);
+     text-align: center;
+     padding-top: 5px;
+ }
+ 
+ h2 {
+     background: #fff;
+     padding: 0.2em;
+     color: #b63f1b;
+     margin: 0;
+     border-left: 5px solid #b63f1b;
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+ 
+ #brief,
+ #acc,
+ #about {
+     margin: 30px 50px;
+ }
+ 
+ #carouselExampleIndicators {
+     align-items: center;
+ }
+ 
+ #insert {
+     width: 550px;
+     align-items: center;
+     position: relative;
+     left: 30%;
+ }
+ 
+ #about {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ @media(max-width:1536px) {
+     #about,
+     #brief {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+     }
+     #map1 {
+         display: block;
+     }
+     #map2 {
+         display: none;
+     }
+ }
+ 
+ @media(max-width:990px) {
+     #about,
+     #brief {
+         display: flex;
+         flex-direction: column;
+     }
+     #map1 {
+         display: none;
+     }
+     #map2 {
+         display: block;
+     }
+     #insert {
+         width: 450px;
+         align-items: center;
+         position: relative;
+         left: 10%;
+     }
+ }
+ 
+ @media(max-width:768px) {
+     p {
+         font-size: 15px;
+         align-items: center;
+     }
+     #insert {
+         width: 400px;
+         align-items: center;
+         position: relative;
+         left: 10%;
+     }
+     #old img {
+         width: 250px;
+     }
+ }
+ 
+ #sec {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ @media(max-width:500px) {
+     p {
+         font-size: 15px;
+         align-items: center;
+     }
+     #insert {
+         width: 250px;
+         align-items: center;
+         position: relative;
+         left: 0%;
+     }
+ }

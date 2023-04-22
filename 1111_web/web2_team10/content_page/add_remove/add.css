@@ -1,0 +1,26 @@
+.col-sm-5 {
+    background-color: #dedede;
+}
+
+#all {
+    background-color: #7D8E95;
+}
+
+html {
+    background-color: #7D8E95;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#fom {
+    align-items: center;
+}
+
+#fom {
+    align-items: center;
+    position: relative;
+    left: 30%;
+}

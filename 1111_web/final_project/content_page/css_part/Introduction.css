@@ -1,0 +1,61 @@
+#content {
+    margin: 0px 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+#infor {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h1 {
+    color: rgb(71, 71, 72);
+    text-align: center;
+    padding-top: 5px;
+}
+
+h2 {
+    background: #fff;
+    padding: 0.2em;
+    color: #b63f1b;
+    margin: 0;
+    border-left: 5px solid #b63f1b;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#acc p,
+#about p,
+#brief p {
+    margin: 10px;
+}
+
+@media(max-width:1536px) {
+    #acc,
+    #about,
+    #brief {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #map1 {
+        display: block;
+    }
+    #map2 {
+        display: none;
+    }
+}
+
+@media(max-width:990px) {
+    #about,
+    #brief {
+        display: flex;
+        flex-direction: column;
+    }
+    #map1 {
+        display: none;
+    }
+    #map2 {
+        display: block;
+    }
+}

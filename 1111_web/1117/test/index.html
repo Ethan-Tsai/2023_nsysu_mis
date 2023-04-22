@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jquery-3.6.1.js"></script>
+    <script src="./infite.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>
+        <button id="aa" onclick="infiniteScroll()">
+            default
+            <p></p>
+        </button>
+    </h2>
+
+    <div class="article-feed">
+        <!-- .articles will be added to .article-feed -->
+
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        <article class="article">
+            <p>123
+                <hr>
+            </p>
+        </article>
+        ...
+    </div>
+
+    <!-- status elements -->
+    <div class="scroller-status">
+        <div class="infinite-scroll-request loader-ellips">
+            ...
+        </div>
+        <p class="infinite-scroll-last">End of content</p>
+        <p class="infinite-scroll-error">No more pages to load</p>
+    </div>
+
+    <!-- pagination has path -->
+    <p class="pagination">
+        <a class="pagination__next" href="page2.html">Next page</a>
+    </p>
+</body>
+
+</html>

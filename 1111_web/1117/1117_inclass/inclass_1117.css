@@ -1,0 +1,11 @@
+.login {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#red {
+    color: red;
+}

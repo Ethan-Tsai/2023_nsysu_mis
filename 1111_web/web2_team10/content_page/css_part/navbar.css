@@ -1,0 +1,23 @@
+/* #header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding-bottom: 10px;
+} */
+
+nav {
+    height: 70px;
+}
+
+#navbar {
+    box-shadow: 0 4px 2px -2px rgb(0 0 0 / 30%);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+@media(max-width:990px) {
+    nav {
+        height: auto;
+    }
+}

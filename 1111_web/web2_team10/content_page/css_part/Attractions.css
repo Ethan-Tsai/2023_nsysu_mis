@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+    margin: 0px 5px;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#sort1 {
+    background-color: #B3DEE5;
+}
+
+#infor {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#sobtn,
+#ed-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.deeimg {
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+#ed-btn {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#ed-btn form {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#sobtn div {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: rgb(71, 71, 72);
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h2 {
+    background: #fff;
+    padding: 0.2em;
+    color: #b63f1b;
+    margin: 0;
+    border-left: 5px solid #b63f1b;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#acc p,
+#about p,
+#brief p {
+    margin: 10px;
+}
+
+@media(max-width:1536px) {
+    #acc,
+    #about,
+    #brief {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #map1 {
+        display: block;
+    }
+    #map2 {
+        display: none;
+    }
+}
+
+@media(max-width:990px) {
+    #about,
+    #brief {
+        display: flex;
+        flex-direction: column;
+    }
+    #map1 {
+        display: none;
+    }
+    #map2 {
+        display: block;
+    }
+}
+
+#brief #f1 {
+    margin: 10px 35px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:1600px) {
+    #fl {
+        margin: 10px 35px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media(max-width:768px) {
+    #brief #f1 {
+        margin: 10px 35px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
