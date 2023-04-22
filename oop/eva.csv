@@ -1,0 +1,5 @@
+,Model,Accuracy
+0,Logistic Regression,85.39387308533917
+1,Gaussian Naive Bayes,82.27571115973743
+2,Random Forest,85.17505470459518
+3,K-Nearest Neighbour,85.77680525164114
