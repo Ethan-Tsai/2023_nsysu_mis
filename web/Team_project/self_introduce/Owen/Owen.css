@@ -1,0 +1,76 @@
+    h1 {
+        font-family: Georgia;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    a:hover {
+        color: orange;
+    }
+    
+    blockquote {
+        font-family: "Courier New";
+        font-weight: bold;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+    
+    #Expertise_a {
+        padding: 3px;
+        width: 178px;
+    }
+    
+    #Expertise_b {
+        padding: 3px;
+    }
+    
+    ol {
+        list-style-type: lower-alpha;
+    }
+    
+    th {
+        background-color: lightgrey;
+        text-align: left;
+    }
+    
+    #Year {
+        padding: 10px;
+    }
+    
+    #Project {
+        padding: 10px;
+    }
+    
+    #Year2021 {
+        padding-top: 3px;
+        padding-left: 10px;
+        text-align: start;
+    }
+    
+    #Year2022 {
+        padding-top: 3px;
+        padding-left: 10px;
+        text-align: start;
+    }
+    
+    #Project2021 {
+        padding-top: 3px;
+        padding-left: 10px;
+        text-align: start;
+    }
+    
+    #Project2022 {
+        padding-top: 3px;
+        padding-left: 10px;
+        text-align: start;
+    }
+    
+    #email {
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+    }

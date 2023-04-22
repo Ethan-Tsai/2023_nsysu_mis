@@ -1,0 +1,51 @@
+h1 {
+    font-family: Georgia, serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+blockquote {
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+th {
+    background-color: lightgrey;
+    text-align: left;
+    padding: 10px
+}
+
+a:hover {
+    color: orange;
+}
+
+li.special {
+    width: 132px;
+    background-color: yellowgreen;
+    padding: 3px
+}
+
+li.shout {
+    padding: 3px
+}
+
+td {
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+p#container {
+    position: absolute;
+    left: 110px;
+    top: 140px;
+}

@@ -1,0 +1,50 @@
+h1 {
+    font-family: "Georgia";
+}
+
+body {
+    font-family: "Roboto"
+}
+
+blockquote {
+    font-weight: bold;
+    font-family: "Courier New";
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+th {
+    background-color: rgb(219, 219, 219);
+    text-align: left;
+    padding: 10px;
+}
+
+a:hover {
+    color: orange;
+}
+
+li {
+    padding: 3px;
+}
+
+td {
+    padding: 3px;
+    text-align: start;
+    padding-left: 10px;
+}
+
+.special {
+    padding: 3px;
+}
+
+#email {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}

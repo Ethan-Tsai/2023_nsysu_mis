@@ -1,0 +1,15 @@
+.span1 {
+    color: aqua;
+}
+
+.grandpa {
+    color: rgb(255, 162, 0);
+}
+
+p.chirdren {
+    color: aquamarine;
+}
+
+#ad li.important strong {
+    text-decoration: underline;
+}

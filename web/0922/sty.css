@@ -1,0 +1,38 @@
+p {
+    color: red;
+    background-color: blanchedalmond;
+    font-size: 80px;
+}
+
+td {
+    border-style: solid;
+    border-width: 2px;
+    color: aquamarine;
+}
+
+body {
+    color: yellow;
+    color: red
+}
+
+a {
+    font-weight: bold;
+    font-color: green;
+}
+
+p {
+    color: orange;
+    color: red
+}
+
+h2 {
+    text-color: red
+}
+
+body {
+    color: blue
+}
+
+a:hover {
+    color: #FF00FF;
+}

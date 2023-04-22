@@ -1,0 +1,132 @@
+.whole {
+    background-color: lightgoldenrodyellow;
+    font-family: Tajawal;
+}
+
+.dessert {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0B3C5D;
+    text-align: left;
+    border-radius: 80px;
+    width: auto;
+    height: auto;
+}
+
+.dessert_item {
+    flex-direction: row;
+    display: flex;
+    vertical-align: middle;
+    width: 80%;
+}
+
+.dessert_item>div {
+    height: fit-content;
+    margin: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.dessert_content {
+    vertical-align: middle;
+}
+
+#dark {
+    background-color: bisque;
+}
+
+.dessert_title_left {
+    height: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: Caveat;
+}
+
+.dessert_title_right {
+    height: 50px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: Caveat;
+}
+
+.dessert_pic {
+    text-align: center;
+}
+
+.dessert_text {
+    font-size: 20px;
+}
+
+.dessert_info {
+    font-weight: bold;
+}
+
+@media(max-width:1400px) {
+    .dessert img {
+        width: auto;
+        height: 220px;
+    }
+    .dessert_title_left {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .dessert_title_right {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:968px) {
+    .dessert img {
+        width: auto;
+        height: 175px;
+    }
+    .dessert_title_left {
+        font-size: 30px;
+    }
+    .dessert_title_right {
+        font-size: 30px;
+    }
+    .dessert_text {
+        font-size: smaller;
+    }
+}
+
+@media(max-width:680px) {
+    .dessert img {
+        width: auto;
+        height: 200px;
+    }
+    .dessert_item {
+        flex-direction: column;
+        justify-items: center;
+        width: 95%;
+    }
+    .dessert_title_left {
+        text-align: center;
+    }
+    .dessert_title_right {
+        text-align: center;
+    }
+    #dark .dessert_item {
+        flex-direction: column-reverse;
+    }
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+.whole {
+    margin-top: 10px;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}

@@ -1,0 +1,371 @@
+ul,
+li {
+    list-style: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+#head_logo a {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#head_logo a:hover {
+    background-color: #e59358;
+    font-size: 120%;
+}
+
+#head_logo {
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #f6d5bd85;
+    text-align: center;
+    justify-content: left;
+}
+
+#head_logo p {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 45px;
+}
+
+#nav-bar {
+    margin-top: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: auto;
+    background-color: #f3e4d8;
+    height: 3.8rem;
+    align-items: center;
+    font-size: 20px;
+}
+
+#nav-bar button {
+    align-items: center;
+    background-color: #f3e4d8;
+    width: 110px;
+    height: 3.5rem;
+    margin: 10px;
+    border: none;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#nav-bar button:hover {
+    background-color: #f3e4d8;
+}
+
+#nav-bar button:hover .sub_menu a {
+    display: block;
+    background-color: #f3d4bb;
+    color: black;
+}
+
+#nav-bar button .sub:hover .sub_menu a {
+    display: block;
+}
+
+#nav-bar button a:hover .sub_menu a {
+    display: block;
+}
+
+.sub {
+    position: relative;
+    top: 17px;
+    text-align: center;
+    justify-content: center;
+}
+
+.sub_menu a {
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.sub_menu li {
+    border: 1 solid;
+    color: black;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+nav ul {
+    padding-left: 300px;
+}
+
+#feature ul li {
+    margin: 20px;
+}
+
+#head_content {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+#head_content:hover {
+    font-size: 80px;
+}
+
+.sub {
+    padding: 0;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+#intro h2 {
+    padding-top: 10px;
+}
+
+#nav-bar .first_b:hover {
+    font-size: 120%;
+}
+
+.btn3 {
+    justify-content: center;
+    background: linear-gradient(97deg, #f3d7bf 0%, rgba(243, 199, 83, 1) 31%, #f0d5be 81%);
+    background-position: 125%;
+    /*//調整到我想要光線出現的位置再往左邊讓他看不到*/
+    background-size: 200% auto;
+    /*//背景大小2倍才好移動位置～*/
+    /*&:hover {
+        animation: shine 2s infinite;
+        /*hover後馬上上名稱為“shine”的animation~
+    }
+    */
+}
+
+.btn3:hover {
+    animation: shine 2s infinite;
+}
+
+
+/*動畫在這裡啦*/
+
+@keyframes shine {
+    to {
+        background-position: -70%;
+        /* //調整到我想要光線結束的地方*/
+    }
+}
+
+.vice_em {
+    font-size: 70%
+}
+
+.sub li a {
+    border-top: 1px solid;
+    border-color: black;
+}
+
+figcaption {
+    text-align: center;
+}
+
+html {
+    max-width: 1366px;
+}
+
+#expla2 {
+    display: none;
+}
+
+#side_bar {
+    display: none;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+@media(max-width:1366px) {}
+
+@media(max-width:1200px) {
+    #nav-bar {
+        padding-left: 100px;
+    }
+}
+
+@media(max-width:1180px) {
+    #wea1 {
+        display: none;
+        width: 500px;
+    }
+    #weather {
+        display: none;
+    }
+}
+
+@media(max-width:990px) {
+    #nav-bar {
+        margin: 0px;
+        padding-left: 0px;
+    }
+    #nav-bar button {
+        margin: 0px;
+    }
+    #head_content {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:818px) {
+    #brief {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #expla1 {
+        display: none;
+    }
+    #expla2 {
+        display: block;
+    }
+}
+
+@media(max-width:781px) {
+    #footer #more_info {
+        height: 500px;
+    }
+    #footer div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer #wea1 {
+        display: none;
+    }
+    #footer #weather {
+        display: none;
+    }
+    #nav-bar {
+        margin: -3px;
+    }
+}
+
+#map2 {
+    display: none;
+}
+
+#sid {
+    color: white;
+    background-color: #c25e5e;
+}
+
+#sid:hover {
+    background-color: #c44646;
+}
+
+@media(max-width:742px) {
+    #nav-bar {
+        display: none;
+    }
+    #head_img {
+        height: 250px;
+    }
+    #side_bar {
+        display: block;
+    }
+}
+
+@media(max-width:546px) {
+    #map2 {
+        display: block;
+    }
+    #map1 {
+        display: none;
+    }
+}
+
+@media(max-width:520px) {
+    #head_content {
+        font-size: 30px;
+    }
+    .vice_em {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:480px) {
+    #head_img {
+        height: 200px;
+    }
+}
+
+@media(max-width:450px) {
+    .vice_em {
+        display: flex;
+    }
+}

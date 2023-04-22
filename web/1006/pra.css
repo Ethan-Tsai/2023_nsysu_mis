@@ -1,0 +1,19 @@
+#menubar {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+#area2 {
+    position: relative;
+    left: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-around;
+}

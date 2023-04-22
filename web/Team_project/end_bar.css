@@ -1,0 +1,67 @@
+ul,
+li {
+    list-style: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+#footer {
+    margin: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.con {
+    background-color: rgb(245, 245, 245);
+}
+
+#footer #more_info {
+    display: flex;
+    height: 300px;
+}
+
+#footer #more_info div {
+    margin: 10px;
+    margin-right: 30px;
+    justify-content: center;
+}
+
+.btn3 {
+    justify-content: center;
+    background: linear-gradient(97deg, #f3d7bf 0%, rgba(243, 199, 83, 1) 31%, #f0d5be 81%);
+    background-position: 125%;
+    /*//調整到我想要光線出現的位置再往左邊讓他看不到*/
+    background-size: 200% auto;
+    /*//背景大小2倍才好移動位置～*/
+    /*&:hover {
+        animation: shine 2s infinite;
+        /*hover後馬上上名稱為“shine”的animation~
+    }
+    */
+}
+
+.btn3:hover {
+    animation: shine 2s infinite;
+}
+
+
+/*動畫在這裡啦*/
+
+@keyframes shine {
+    to {
+        background-position: -70%;
+        /* //調整到我想要光線結束的地方*/
+    }
+}
+
+#wea {
+    width: 500px;
+}
+
+#Weather {
+    display: none;
+}

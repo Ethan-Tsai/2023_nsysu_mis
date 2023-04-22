@@ -1,0 +1,147 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.stay {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0B3C5D;
+    text-align: left;
+    vertical-align: bottom;
+    border-radius: 80px;
+}
+
+.stay_item {
+    flex-direction: row;
+    display: flex;
+    width: 80%;
+}
+
+.stay_item>div {
+    height: 300px;
+    margin: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+hr {
+    background-color: bisque;
+    width: 1200px;
+    height: 3px;
+    border: 0px;
+}
+
+#dark {
+    background-color: bisque;
+}
+
+#dark hr {
+    background-color: #ffffff;
+    width: 1300px;
+    height: 3px;
+    border: 0px;
+}
+
+.stay_title_left {
+    height: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 35px;
+}
+
+.stay_title_right {
+    height: 50px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 35px;
+}
+
+.stay_pic {
+    text-align: center;
+}
+
+.stay_pic:hover {
+    transform: scale(1.10);
+    transition: 0.7s;
+}
+
+.stay_text {
+    font-size: medium;
+}
+
+@media(max-width:1400px) {
+    .stay img {
+        width: auto;
+        height: 220px;
+    }
+    .stay_title_left {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .stay_title_right {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .stay_text {
+        font-size: smaller;
+    }
+}
+
+@media(max-width:968px) {
+    .stay img {
+        width: auto;
+        height: 175px;
+    }
+    .stay_item {
+        width: 90%;
+    }
+    .stay_title_left {
+        font-size: 30px;
+        text-align: center;
+    }
+    .stay_title_right {
+        font-size: 30px;
+        text-align: center;
+    }
+    .stay_text {
+        font-size: smaller;
+    }
+}
+
+@media(max-width:790px) {
+    .stay_text {
+        font-size: x-small;
+    }
+    .stay_item {
+        flex-direction: column;
+        justify-items: center;
+    }
+    .stay_title_left {
+        text-align: center;
+        font-size: auto;
+    }
+    .stay_title_right {
+        text-align: center;
+        font-size: auto;
+    }
+    #dark .stay_item {
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:450px) {
+    #aaa {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:400px) {
+    .stay_text {
+        font-size: xx-small;
+    }
+}
